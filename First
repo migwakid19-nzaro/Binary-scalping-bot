@@ -1,0 +1,16 @@
+binary-scalper-bot/
+├─ README.md
+├─ .gitignore
+├─ requirements.txt
+├─ config.example.yaml
+├─ config.yaml        # create from example, add your API key here (DO NOT commit it)
+├─ main.py
+├─ broker.py          # broker API wrapper (replace endpoints)
+├─ strategy.py        # scalping + signal generator
+├─ martingale.py      # stake manager
+├─ risk.py            # global risk manager & limits
+├─ backtester.py      # very small backtest harness
+├─ utils.py           # logging & helpers
+├─ tests/
+│  ├─ test_martingale.py
+│  ├─ test_strategy.py
